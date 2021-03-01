@@ -1,0 +1,43 @@
+/* GENERAL */
+body{
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+
+h1,
+h2{
+    font-weight: 500;
+    text-align: center;
+    color: rgb(51, 50, 50);
+    margin-bottom: 3rem;
+}
+
+h2{
+    margin-top: 3rem;
+}
+
+main{
+    background-image: linear-gradient(to bottom right, rgb(198, 228, 98), rgb(41, 144, 212));
+    padding: 50px 0;
+}
+
+div{
+    font-size: 0.6rem;
+}
+
+.container{
+    margin-bottom: 1.5rem;
+}
+
+/* MAIN */
+.box{
+    height: 2rem;
+    background-color: rgb(93, 167, 143);
+    box-shadow: 0px 8px 14px -3px rgb(255 248 248);
+    line-height: 2rem;
+}
+
+.box-2{
+    background-color: rgb(223, 107, 62);
+}

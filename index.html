@@ -6,11 +6,162 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- LINK FRAMEWORK -->
     <link rel="stylesheet" href="./css/12bool.css">
+    <!-- LINK GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <!-- LINK STYLE -->
     <link rel="stylesheet" href="./css/style.css">
     <title>12Bool</title>
 </head>
+
 <body>
-    
-</body>
-</html>
+    <main>
+        <h1>12 COLUMNS LAYOUT</h1>
+
+        <!-- ROW 1 -->
+        <div class="container">
+            <div class="col-12"><div class="box">Col 12</div></div>
+        </div>
+
+        <!-- ROW 2 -->
+        <div class="container">
+            <div class="col-4"><div class="box">Col 4</div></div>
+            <div class="col-6"><div class="box">Col 6</div></div>
+            <div class="col-2"><div class="box">Col 2</div></div>
+        </div>
+
+        <!-- ROW 3 -->
+        <div class="container">
+            <div class="col-1"><div class="box">Col 1</div></div>
+            <div class="col-1"><div class="box">Col 1</div></div>
+            <div class="col-1"><div class="box">Col 1</div></div>
+            <div class="col-1"><div class="box">Col 1</div></div>
+            <div class="col-1"><div class="box">Col 1</div></div>
+            <div class="col-1"><div class="box">Col 1</div></div>
+            <div class="col-1"><div class="box">Col 1</div></div>
+            <div class="col-1"><div class="box">Col 1</div></div>
+            <div class="col-1"><div class="box">Col 1</div></div>
+            <div class="col-1"><div class="box">Col 1</div></div>
+            <div class="col-1"><div class="box">Col 1</div></div>
+            <div class="col-1"><div class="box">Col 1</div></div>
+        </div>
+
+        <!-- ROW 4 -->
+        <h2>With Offset</h2>
+        <div class="container">
+            <div class="col-5"><div class="box">Col 5</div></div>
+            <div class="col-3 offset-2"><div class="box">Col 3 - Offset 2</div></div>
+            <div class="col-1 offset-1"><div class="box">Col 1 - Offset 1</div></div>
+        </div>
+
+        <!-- ROW 5 -->
+        <div class="container">
+            <div class="col-8 offset-2"><div class="box">Col 8 - Offset 2</div></div>
+            <div class="col-2"><div class="box">Col 2</div></div>
+        </div>
+
+        <!-- ROW 6  -->
+        <div class="container">
+            <div class="col-2 offset-3"><div class="box">Col 2 - Offset 3</div></div>
+            <div class="col-3 offset-2"><div class="box">Col 3 - Offset 2</div></div>
+            <div class="col-1 offset-1"><div class="box">Col 1 - Offset 1</div></div>
+        </div>
+
+        <!-- ROW 7 -->
+        <div class="container">
+            <div class="col-1"><div class="box">Col 1</div></div>
+            <div class="col-1 offset-1"><div class="box">Col 1 - Offset 1</div></div>
+            <div class="col-1 offset-1"><div class="box">Col 1 - Offset 1</div></div>
+            <div class="col-1 offset-1"><div class="box">Col 1 - Offset 1</div></div>
+            <div class="col-1 offset-1"><div class="box">Col 1 - Offset 1</div></div>
+            <div class="col-1 offset-1"><div class="box">Col 1 - Offset 1</div></div>
+        </div>
+
+        <!-- ROW 8 -->
+         <div class="container">
+            <div class="col-1 offset-1"><div class="box">Col 1 - Offset 1</div></div>
+            <div class="col-1 offset-1"><div class="box">Col 1 - Offset 1</div></div>
+            <div class="col-1 offset-1"><div class="box">Col 1 - Offset 1</div></div>
+            <div class="col-1 offset-1"><div class="box">Col 1 - Offset 1</div></div>
+            <div class="col-1 offset-1"><div class="box">Col 1 - Offset 1</div></div>
+            <div class="col-1 offset-1"><div class="box">Col 1 - Offset 1</div></div>
+        </div>
+
+        <h2>With Nesting</h2>
+
+        <!-- ROW 9 -->
+        <div class="container">
+
+            <div class="col-5 padding-0 container">
+                <div class="col-6"><div class="box box-2">Col 6</div></div>
+                <div class="col-6"><div class="box box-2">Col 6</div></div>
+            </div>
+
+            <div class="col-5 offset-2 padding-0 container">
+                <div class="col-8"><div class="box box-2">Col 8</div></div>
+                <div class="col-2 offset-2"><div class="box box-2"></div></div>
+            </div>
+        </div>
+
+        <!-- ROW 10 -->
+        <div class="container">
+
+            <div class="col-3 padding-0 container">
+                <div class="col-12"><div class="box box-2">Col 12</div></div>
+            </div>
+
+            <div class="col-3 padding-0 container">
+                <div class="col-12"><div class="box box-2">Col 12</div></div>
+            </div>
+
+            <div class="col-3 padding-0 container">
+                <div class="col-6"><div class="box box-2">Col 6</div></div>
+                <div class="col-6"><div class="box box-2">Col 6</div></div>
+            </div>
+
+            <div class="col-3 padding-0 container">
+                <div class="col-6"><div class="box box-2">Col 6</div></div>
+                <div class="col-6"><div class="box box-2">Col 6</div></div>
+            </div>
+        </div>
+
+        <!-- ROW 11 -->
+        <div class="container">
+            <div class="col-4 offset-2 padding-0 container">
+                <div class="col-4 offset-2"><div class="box box-2">Col 4 - Offset 2</div></div>
+                <div class="col-4 offset-2"><div class="box box-2">Col 4 - Offset 2</div></div>
+            </div>
+
+            <div class="col-4 offset-2 padding-0 container">
+                <div class="col-2 offset-4"><div class="box box-2"></div></div>
+                <div class="col-2 offset-4"><div class="box box-2"></div></div>
+            </div>
+        </div>
+
+        <!-- ROW 12 -->
+        <div class="container">
+            <div class="col-3 padding-0 container">
+                <div class="col-2"><div class="box box-2"></div></div>
+                <div class="col-2 offset-1"><div class="box box-2"></div></div>
+                <div class="col-2 offset-1"><div class="box box-2"></div></div>
+                <div class="col-2 offset-1"><div class="box box-2"></div></div>
+            </div>
+
+            <div class="col-3 offset-1 padding-0 container">
+                <div class="col-2"><div class="box box-2"></div></div>
+                <div class="col-2 offset-1"><div class="box box-2"></div></div>
+                <div class="col-2 offset-1"><div class="box box-2"></div></div>
+                <div class="col-2 offset-1"><div class="box box-2"></div></div>
+            </div>
+
+            <div class="col-3 offset-1 padding-0 container">
+                <div class="col-2"><div class="box box-2"></div></div>
+                <div class="col-2 offset-1"><div class="box box-2"></div></div>
+                <div class="col-2 offset-1"><div class="box box-2"></div></div>
+                <div class="col-2 offset-1"><div class="box box-2"></div></div>
+            </div>
+        </div>
+    </main>
+</body>      
+
+</html>             
